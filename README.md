@@ -35,17 +35,4 @@ The Lip Reading AI model architecture consists of 3D convolutional layers, LSTM 
 
 The model is trained using the CTC (Connectionist Temporal Classification) loss and the Adam optimizer. A learning rate scheduler is employed to optimize the training process. The training and validation results are evaluated using the test set.
 
-## Prediction on a Sample Video
 
-We have provided a test on a sample video in the notebook. The model predicts text based on lip movements in the video and compares it with the actual ground truth.
-
-## Pre-trained Weights
-
-Pre-trained weights for the model can be downloaded from [this link](https://drive.google.com/uc?id=1vWscXs4Vt0a_1IH1-ct2TCgXAZT-N3_Y) and loaded into the model for prediction.
-
-Please feel free to use this code as a starting point for your lip reading AI projects or further research.
-
-## Acknowledgments
-
-- The LipNet research paper that served as the inspiration for this implementation.
-- TensorFlow and other open-source libraries used in the project.
